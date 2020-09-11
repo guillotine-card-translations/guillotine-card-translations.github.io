@@ -8,10 +8,10 @@
 		"site/assets/sass/partials/_card.scss"
 	],
 	"sourcesContent": [
-		"@import \"partials/_variables\";\n\n.card-intro {\n  font-size: 20px;\n  font-weight: 100;\n  line-height: 1.5;\n}\n\n.card-list {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.card-list .card {\n  width: 216px;\n  margin: 0 36px 36px 0;\n}\n\n@import \"partials/_card\";\n",
+		"@import \"partials/_variables\";\n\n.card-intro {\n  font-size: 20px;\n  font-weight: 100;\n  line-height: 1.5;\n}\n\n.card-list {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.card-list .card {\n  width: 216px;\n  margin: 0 36px 36px 0;\n}\n\n@import \"partials/_card\";\n\n@media (max-width: 375px) {\n  .card-list .card {\n    width: 100%;\n  }\n}\n",
 		"$link: #c7031e;\n\n$colorTextLight: #616e80;\n\n$lightBlack: #333;\n",
-		"\n.card-name {\n  font-size: 18px;\n  margin: 0;\n  margin-bottom: 8px;\n}\n\n.card-name a {\n  color: $lightBlack;\n  text-decoration: none;\n\n  &:hover {\n    color: $link;\n  }\n}\n\n.card-figure img {\n  border-radius: 3px;\n  width: 216px;\n}\n"
+		"\n.card-name {\n  font-size: 18px;\n  margin: 0;\n  margin-bottom: 8px;\n}\n\n.card-name a {\n  color: $lightBlack;\n  text-decoration: none;\n\n  &:hover {\n    color: $link;\n  }\n}\n\n.card-figure img {\n  border-radius: 3px;\n  width: 100%;\n  max-width: 375px;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,WAAW,AAAC,CACV,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CACjB,AAED,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,CAAC,KAAK,AAAC,CACf,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,aAAa,CACtB,AEfD,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,CAAC,CACT,aAAa,CAAE,GAAG,CACnB,AAED,AAAA,UAAU,CAAC,CAAC,AAAC,CACX,KAAK,CDJM,IAAI,CCKf,eAAe,CAAE,IAAI,CAKtB,AAPD,AAIE,UAJQ,CAAC,CAAC,CAIR,KAAK,AAAC,CACN,KAAK,CDZF,OAAO,CCaX,AAGH,AAAA,YAAY,CAAC,GAAG,AAAC,CACf,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,KAAK,CACb"
+	"mappings": "AAEA,AAAA,WAAW,AAAC,CACV,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CACjB,AAED,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,CAAC,KAAK,AAAC,CACf,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,aAAa,CACtB,AEfD,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,CAAC,CACT,aAAa,CAAE,GAAG,CACnB,AAED,AAAA,UAAU,CAAC,CAAC,AAAC,CACX,KAAK,CDJM,IAAI,CCKf,eAAe,CAAE,IAAI,CAKtB,AAPD,AAIE,UAJQ,CAAC,CAAC,CAIR,KAAK,AAAC,CACN,KAAK,CDZF,OAAO,CCaX,AAGH,AAAA,YAAY,CAAC,GAAG,AAAC,CACf,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,CACjB,AFAD,MAAM,mBACJ,CAAA,AAAA,UAAU,CAAC,KAAK,AAAC,CACf,KAAK,CAAE,IAAI,CACZ,CAAA"
 }
