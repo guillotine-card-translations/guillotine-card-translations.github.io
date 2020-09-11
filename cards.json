@@ -1,0 +1,524 @@
+[
+  {
+    "key": "v1",
+    "color": "violet",
+    "name": "Coiffeur",
+    "value": 1
+  },
+  {
+    "key": "v2",
+    "color": "violet",
+    "name": "Lady in Waiting",
+    "value": 1,
+    "description": "Draw an additional action card at the end of your turn after you collect this noble."
+  },
+  {
+    "key": "v3",
+    "color": "violet",
+    "name": "Piss Boy",
+    "value": 1
+  },
+  {
+    "key": "v4",
+    "color": "violet",
+    "name": "Royal Cartographer",
+    "value": 1
+  },
+  {
+    "key": "v5",
+    "color": "violet",
+    "name": "Count",
+    "value": 2,
+    "description": "The Count is worth +2 points if you also have the Countess in your score pile."
+  },
+  {
+    "key": "v6",
+    "color": "violet",
+    "name": "Countess",
+    "value": 2,
+    "description": "The Countess is worth +2 points if you also have the Count in your score pile."
+  },
+  {
+    "key": "v7",
+    "color": "violet",
+    "name": "Fast Noble",
+    "value": 2,
+    "description": "Collect an additional noble from the front of the line after you collect this noble."
+  },
+  {
+    "key": "v8",
+    "color": "violet",
+    "name": "Lady",
+    "value": 2,
+    "description": "Draw an additional action card at the end of your turn after you collect this noble."
+  },
+  {
+    "key": "v9",
+    "color": "violet",
+    "name": "Lord",
+    "value": 2,
+    "description": "Draw an additional action card at the end of your turn after you collect this noble."
+  },
+  {
+    "key": "v10",
+    "color": "violet",
+    "name": "Baron",
+    "value": 3
+  },
+  {
+    "key": "v11",
+    "color": "violet",
+    "name": "Duke",
+    "value": 3
+  },
+  {
+    "key": "v12",
+    "color": "violet",
+    "name": "Robespierre",
+    "value": 3,
+    "description": "The day ends after you collect this noble. Discard any nobles remaining in line."
+  },
+  {
+    "key": "v13",
+    "color": "violet",
+    "name": "Regent",
+    "value": 4
+  },
+  {
+    "key": "v14",
+    "color": "violet",
+    "name": "King Louis XVI",
+    "value": 5
+  },
+  {
+    "key": "v15",
+    "color": "violet",
+    "name": "Marie Antoinette",
+    "value": 5
+  },
+  {
+    "key": "b1",
+    "color": "blue",
+    "name": "Wealthy Priest",
+    "value": 1,
+    "qty": 2
+  },
+  {
+    "key": "b2",
+    "color": "blue",
+    "name": "Bishop",
+    "value": 2
+  },
+  {
+    "key": "b3",
+    "color": "blue",
+    "name": "Heretic",
+    "value": 2
+  },
+  {
+    "key": "b4",
+    "color": "blue",
+    "name": "Bad Nun",
+    "value": 3
+  },
+  {
+    "key": "b5",
+    "color": "blue",
+    "name": "Archbishop",
+    "value": 4
+  },
+  {
+    "key": "b6",
+    "color": "blue",
+    "name": "Cardinal",
+    "value": 5
+  },
+  {
+    "key": "e1",
+    "color": "green",
+    "name": "Rival Executioner",
+    "value": 1,
+    "description": "Collect the top noble of the noble deck after you collect this noble."
+  },
+  {
+    "key": "e2",
+    "color": "green",
+    "name": "Sheriff",
+    "value": 1,
+    "qty": 2
+  },
+  {
+    "key": "e3",
+    "color": "green",
+    "name": "Land Lord",
+    "value": 2
+  },
+  {
+    "key": "e4",
+    "color": "green",
+    "name": "Unpopular Judge",
+    "value": 2,
+    "description": "No player may play an action card while the Unpopular Judge is at the front of the line.",
+    "qty": 2
+  },
+  {
+    "key": "e5",
+    "color": "green",
+    "name": "Tax Collector",
+    "value": 2
+  },
+  {
+    "key": "e6",
+    "color": "green",
+    "name": "Councilman",
+    "value": 3
+  },
+  {
+    "key": "e7",
+    "color": "green",
+    "name": "Mayor",
+    "value": 3
+  },
+  {
+    "key": "e8",
+    "color": "green",
+    "name": "Governor",
+    "value": 4
+  },
+  {
+    "key": "r1",
+    "color": "red",
+    "name": "Palace Guard",
+    "value": "*",
+    "description": "Each Palace Guard is worth a number of points equal to the number of Palace Guards in your score pile (including this one).",
+    "qty": 5
+  },
+  {
+    "key": "r2",
+    "color": "red",
+    "name": "Liutenant",
+    "value": 2,
+    "qty": 2
+  },
+  {
+    "key": "r3",
+    "color": "red",
+    "name": "Captain of the Guard",
+    "value": 2,
+    "description": "Add another noble from the noble deck to the end of the line after you collect this noble."
+  },
+  {
+    "key": "r4",
+    "color": "red",
+    "name": "Colonel",
+    "value": 3
+  },
+  {
+    "key": "r5",
+    "color": "red",
+    "name": "General",
+    "value": 4,
+    "description": "Add another noble from the noble deck to the end of the line after you collect this noble."
+  },
+  {
+    "key": "r6",
+    "color": "red",
+    "name": "Master Spy",
+    "value": 4,
+    "description": "After each action card is played, move this card to the end of the line."
+  },
+  {
+    "key": "g1",
+    "color": "gray",
+    "name": "Tragic Figure",
+    "value": "*",
+    "description": "This noble is worth -1 point for every Gray noble in your score pile (including this one)."
+  },
+  {
+    "key": "g2",
+    "color": "gray",
+    "name": "Innocent Victim",
+    "value": -1,
+    "description": "Choose an action card from your hand and discard it after you collect this noble."
+  },
+  {
+    "key": "g3",
+    "color": "gray",
+    "name": "Martyr",
+    "value": -1,
+    "qty": 3
+  },
+  {
+    "key": "g4",
+    "color": "gray",
+    "name": "The Clown",
+    "value": -2,
+    "description": "When you collect this noble, place it in another player's score pile."
+  },
+  {
+    "key": "g5",
+    "color": "gray",
+    "name": "Hero of the People",
+    "value": -3
+  },
+  {
+    "key": "a1",
+    "name": "After You...",
+    "description": "Put the noble at the front of the line into another player's score pile."
+  },
+  {
+    "key": "a2",
+    "name": "Bribed Guards",
+    "description": "Move the noble at the front of the line to the end of the line."
+  },
+  {
+    "key": "a3",
+    "name": "Callous Guards",
+    "description": "Put this card in front of you. Action cards that alter the line may not be played. (This includes adding or discarding nobles.) You may discard this card at any time."
+  },
+  {
+    "key": "a4",
+    "name": "Church Support",
+    "description": "Put this card in front of you. It is worth +1 point for each Blue noble in your score pile."
+  },
+  {
+    "key": "a5",
+    "name": "Civic Pride",
+    "description": "Move a Green noble forward up to 2 places in line."
+  },
+  {
+    "key": "a6",
+    "name": "Civic Support",
+    "description": "Play this card in front of you. It is worth +1 point for each Green noble in your score pile."
+  },
+  {
+    "key": "a7",
+    "name": "Clerical Error",
+    "description": "Choose a player. Collect any noble of your choice from the player's score pile. That player then chooses any other noble from your score pile and collects it."
+  },
+  {
+    "key": "a8",
+    "name": "Clothing Swap",
+    "description": "Choose any noble in line and discard it. Replace it with the top noble from the noble deck."
+  },
+  {
+    "key": "a9",
+    "name": "Confusion in Line",
+    "description": "Choose a player. Randomly rearrange the line just before that player collects his or her next noble."
+  },
+  {
+    "key": "a10",
+    "name": "Double Feature",
+    "description": "Collect an additional noble from the front of the line this turn.",
+    "qty": 2
+  },
+  {
+    "key": "a11",
+    "name": "Escape!",
+    "description": "Randomly choose 2 nobles in line and discard them. Randomly rearrange the remaining nobles in line."
+  },
+  {
+    "key": "a12",
+    "name": "Extra Cart",
+    "description": "Add 3 nobles from the noble deck to the end of the line.",
+    "qty": 2
+  },
+  {
+    "key": "a13",
+    "name": "Fainting Spell",
+    "description": "Move a noble backward up to 3 places in line."
+  },
+  {
+    "key": "a14",
+    "name": "Fled to England",
+    "description": "Discard any noble in line."
+  },
+  {
+    "key": "a15",
+    "name": "Forced Break",
+    "description": "All other players must discard an action card at random."
+  },
+  {
+    "key": "a16",
+    "name": "Foreign Support",
+    "description": "Put this card in front of you. Draw an action card whenever you collect a Purple noble."
+  },
+  {
+    "key": "a17",
+    "name": "Forward March",
+    "description": "Move a Palace Guard to the front of the line."
+  },
+  {
+    "key": "a18",
+    "name": "Fountain of Blood",
+    "description": "Put this card in front of you. It is worth 2 points."
+  },
+  {
+    "key": "a19",
+    "name": "Friend of the Queen",
+    "description": "Move a noble backward up to 2 places in line.",
+    "qty": 2
+  },
+  {
+    "key": "a20",
+    "name": "Ignoble Noble",
+    "description": "Move a noble forward exactly 4 places in line.",
+    "qty": 2
+  },
+  {
+    "key": "a21",
+    "name": "Indifferent Public",
+    "description": "Put this card in front of you. Any Gray nobles in your score pile are worth 1 point instead of their normal values."
+  },
+  {
+    "key": "a22",
+    "name": "Infighting",
+    "description": "Choose a player. That player must choose 2 action cards from his or her hand and discard them."
+  },
+  {
+    "key": "a23",
+    "name": "Information Exchange",
+    "description": "Trade hands with another player."
+  },
+  {
+    "key": "a24",
+    "name": "Lack of Faith",
+    "description": "If there are any Blue nobles in line, move the one nearest the front of the line to the front of the line."
+  },
+  {
+    "key": "a25",
+    "name": "Lack of Support",
+    "description": "Choose a player. Look at that player's hand, choose an action card, and discard it."
+  },
+  {
+    "key": "a26",
+    "name": "Late Arrival",
+    "description": "Look at the top 3 cards of the noble deck and add any one of them to the end of the line."
+  },
+  {
+    "key": "a27",
+    "name": "Let Them Eat Cake",
+    "description": "If Marie Antoinette is in line, move her to the front of the line."
+  },
+  {
+    "key": "a28",
+    "name": "L'Idiot",
+    "description": "Move a noble forward up to 2 places in line.",
+    "qty": 2
+  },
+  {
+    "key": "a29",
+    "name": "Majesty",
+    "description": "Move a Purple noble forward up to 2 places in line."
+  },
+  {
+    "key": "a30",
+    "name": "Mass Confusion",
+    "description": "Put all nobles in line in the noble deck. Shuffle the noble deck and deal out the same number of nobles in a new line."
+  },
+  {
+    "key": "a31",
+    "name": "Military Might",
+    "description": "Move a Red noble forward up to 2 places in line."
+  },
+  {
+    "key": "a32",
+    "name": "Military Support",
+    "description": "Put this card in front of you. It is worth +1 point for each Red noble in your score pile."
+  },
+  {
+    "key": "a33",
+    "name": "Milling in Line",
+    "description": "Randomly rearrange the first 5 nobles in line.",
+    "qty": 2
+  },
+  {
+    "key": "a34",
+    "name": "Missed!",
+    "description": "Choose a player. That player must place the last noble he or she collected at the end of the line."
+  },
+  {
+    "key": "a35",
+    "name": "Missing Heads",
+    "description": "Choose a player. That player loses a random noble from his or her score pile."
+  },
+  {
+    "key": "a36",
+    "name": "Opinionated Guards",
+    "description": "Rearrange the first 4 nobles in line any way you wish."
+  },
+  {
+    "key": "a37",
+    "name": "Political Influence",
+    "description": "Draw 3 additional action cards at the end of your turn. Do not collect a noble this turn.",
+    "qty": 2
+  },
+  {
+    "key": "a38",
+    "name": "Public Demand",
+    "description": "Move any noble in line to the front of the line."
+  },
+  {
+    "key": "a39",
+    "name": "Pushed",
+    "description": "Move a noble forward exactly 2 places in line.",
+    "qty": 2
+  },
+  {
+    "key": "a40",
+    "name": "Rain Delay",
+    "description": "Shuffle all players' hands into the action deck and deal out 5 new action cards to each player."
+  },
+  {
+    "key": "a41",
+    "name": "Rat Break",
+    "description": "Put an action card of your choice from the discard pile into your hand."
+  },
+  {
+    "key": "a42",
+    "name": "Rush Job",
+    "description": "Choose a player. That player cannot play an action card on his or her next turn."
+  },
+  {
+    "key": "a43",
+    "name": "Scarlet Pimpernel",
+    "description": "The day ends after you finish your turn. Discard any nobles remaining in line."
+  },
+  {
+    "key": "a44",
+    "name": "Stumble",
+    "description": "Move a noble forward exactly 1 place in line.",
+    "qty": 2
+  },
+  {
+    "key": "a45",
+    "name": "The Long Walk",
+    "description": "Reverse the order of the line."
+  },
+  {
+    "key": "a46",
+    "name": "'Tis a Far Better Thing",
+    "description": "Move a noble forward exactly 3 places in line."
+  },
+  {
+    "key": "a47",
+    "name": "Tough Crowd",
+    "description": "Put this card in front of another player. It is worth -2 points to that player."
+  },
+  {
+    "key": "a48",
+    "name": "Trip",
+    "description": "Move a noble backward exactly 1 place in line. You may play another action card this turn.",
+    "qty": 2
+  },
+  {
+    "key": "a49",
+    "name": "Twist of Fate",
+    "description": "Put any action card in front of any player into the discard pile"
+  },
+  {
+    "key": "a50",
+    "name": "Was That My Name?",
+    "description": "Move a noble forward up to 3 places in line."
+  }
+]

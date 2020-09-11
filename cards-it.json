@@ -1,0 +1,524 @@
+[
+  {
+    "key": "v1",
+    "color": "violet",
+    "name": "Coiffeur",
+    "value": 1
+  },
+  {
+    "key": "v2",
+    "color": "violet",
+    "name": "Dama di Compagnia",
+    "value": 1,
+    "description": "Al termine del turno, pesca una carta azione aggiuntiva."
+  },
+  {
+    "key": "v3",
+    "color": "violet",
+    "name": "Piss Boy",
+    "value": 1
+  },
+  {
+    "key": "v4",
+    "color": "violet",
+    "name": "Cartografo Reale",
+    "value": 1
+  },
+  {
+    "key": "v5",
+    "color": "violet",
+    "name": "Conte",
+    "value": 2,
+    "description": "Guadagni +2 punti, se hai ottenuto anche la carta della Contessa."
+  },
+  {
+    "key": "v6",
+    "color": "violet",
+    "name": "Contessa",
+    "value": 2,
+    "description": "Guadagni +2 punti, se hai ottenuto anche la carta della Conte."
+  },
+  {
+    "key": "v7",
+    "color": "violet",
+    "name": "Fast Noble",
+    "value": 2,
+    "description": "Dopo aver raccolto questo nobile, raccogli in aggiunta il primo nobile in coda."
+  },
+  {
+    "key": "v8",
+    "color": "violet",
+    "name": "Dama",
+    "value": 2,
+    "description": "Al termine del turno, pesca una carta azione aggiuntiva."
+  },
+  {
+    "key": "v9",
+    "color": "violet",
+    "name": "Lord",
+    "value": 2,
+    "description": "Al termine del turno, pesca una carta azione aggiuntiva."
+  },
+  {
+    "key": "v10",
+    "color": "violet",
+    "name": "Barone",
+    "value": 3
+  },
+  {
+    "key": "v11",
+    "color": "violet",
+    "name": "Duca",
+    "value": 3
+  },
+  {
+    "key": "v12",
+    "color": "violet",
+    "name": "Robespierre",
+    "value": 3,
+    "description": "Quando viene raccolto, termina il giorno. I nobili rimanenti vengono scartati."
+  },
+  {
+    "key": "v13",
+    "color": "violet",
+    "name": "Reggente",
+    "value": 4
+  },
+  {
+    "key": "v14",
+    "color": "violet",
+    "name": "Re Luigi XVI",
+    "value": 5
+  },
+  {
+    "key": "v15",
+    "color": "violet",
+    "name": "Maria Antonietta",
+    "value": 5
+  },
+  {
+    "key": "b1",
+    "color": "blue",
+    "name": "Prete Ricco",
+    "value": 1,
+    "qty": 2
+  },
+  {
+    "key": "b2",
+    "color": "blue",
+    "name": "Vescovo",
+    "value": 2
+  },
+  {
+    "key": "b3",
+    "color": "blue",
+    "name": "Eretico",
+    "value": 2
+  },
+  {
+    "key": "b4",
+    "color": "blue",
+    "name": "Suora Malvagia",
+    "value": 3
+  },
+  {
+    "key": "b5",
+    "color": "blue",
+    "name": "Arcivescovo",
+    "value": 4
+  },
+  {
+    "key": "b6",
+    "color": "blue",
+    "name": "Cardinale",
+    "value": 5
+  },
+  {
+    "key": "e1",
+    "color": "green",
+    "name": "Boia Rivale",
+    "value": 1,
+    "description": "Dopo aver raccolto questo nobile, raccogli in aggiunta il primo nobile dal mazzo."
+  },
+  {
+    "key": "e2",
+    "color": "green",
+    "name": "Sceriffo",
+    "value": 1,
+    "qty": 2
+  },
+  {
+    "key": "e3",
+    "color": "green",
+    "name": "Signorotto",
+    "value": 2
+  },
+  {
+    "key": "e4",
+    "color": "green",
+    "name": "Giudice Corrotto",
+    "value": 2,
+    "description": "Finchè questa carta rimane in prima posizione, non è permesso giocare alcuna carta azione.",
+    "qty": 2
+  },
+  {
+    "key": "e5",
+    "color": "green",
+    "name": "Esattore",
+    "value": 2
+  },
+  {
+    "key": "e6",
+    "color": "green",
+    "name": "Consigliere",
+    "value": 3
+  },
+  {
+    "key": "e7",
+    "color": "green",
+    "name": "Sindaco",
+    "value": 3
+  },
+  {
+    "key": "e8",
+    "color": "green",
+    "name": "Governatore",
+    "value": 4
+  },
+  {
+    "key": "r1",
+    "color": "red",
+    "name": "Guardia di Palazzo",
+    "value": "*",
+    "description": "Ogni Guardia di Palazzo vale un numero di punti pari al numero di Guardie di Palazzo (inclusa questa) raccolte dal giocatore.",
+    "qty": 5
+  },
+  {
+    "key": "r2",
+    "color": "red",
+    "name": "Tenente",
+    "value": 2,
+    "qty": 2
+  },
+  {
+    "key": "r3",
+    "color": "red",
+    "name": "Capitano delle Guardie",
+    "value": 2,
+    "description": "Dopo aver raccolto questo nobile, aggiungi dal mazzo un nobile alla coda."
+  },
+  {
+    "key": "r4",
+    "color": "red",
+    "name": "Colonnello",
+    "value": 3
+  },
+  {
+    "key": "r5",
+    "color": "red",
+    "name": "Generale",
+    "value": 4,
+    "description": "Dopo aver raccolto questo nobile, aggiungi dal mazzo un nobile alla coda."
+  },
+  {
+    "key": "r6",
+    "color": "red",
+    "name": "Spia",
+    "value": 4,
+    "description": "Viene spostata in coda alla coda ogni volta che si gioca una carta azione"
+  },
+  {
+    "key": "g1",
+    "color": "gray",
+    "name": "Disperato",
+    "value": "*",
+    "description": "Questo nobile vale -1 punto per ogni nobile grigio raccolto dal giocatore (incluso questo)."
+  },
+  {
+    "key": "g2",
+    "color": "gray",
+    "name": "Vittima Innocente",
+    "value": -1,
+    "description": "Dopo aver raccolto questo nobile, scegli una carta azione, e scartala."
+  },
+  {
+    "key": "g3",
+    "color": "gray",
+    "name": "Martire",
+    "value": -1,
+    "qty": 3
+  },
+  {
+    "key": "g4",
+    "color": "gray",
+    "name": "Il Clown",
+    "value": -2,
+    "description": "Quando raccogli questo nobile, puoi scegliere di darlo ad un altro giocatore."
+  },
+  {
+    "key": "g5",
+    "color": "gray",
+    "name": "Eroe del Popolo",
+    "value": -3
+  },
+  {
+    "key": "a1",
+    "name": "Dopo di te...",
+    "description": "Metti il nobile in prima posizione nella pila di un altro giocatore."
+  },
+  {
+    "key": "a2",
+    "name": "Guardie Corrotte",
+    "description": "Sposta il nobile dalla prima posizione all'ultima posizione."
+  },
+  {
+    "key": "a3",
+    "name": "Guardie Insensibili",
+    "description": "Gioca questa carta davanti a te. Carte azione che modificano l'ordine della coda non possono essere giocate. (Incluse quelle che causano l'aggiunta/rimozione di nobili). Puoi rimuovere questa carta in qualunque momento."
+  },
+  {
+    "key": "a4",
+    "name": "Supporto della Chiesa",
+    "description": "Gioca questa carta davanti a te. Vale +1 punto per ogni nobile Blue nella tua pila."
+  },
+  {
+    "key": "a5",
+    "name": "Orgoglio Civico",
+    "description": "Sposta un nobile Verde fino a 2 posizioni in avanti."
+  },
+  {
+    "key": "a6",
+    "name": "Supporto Civico",
+    "description": "Gioca questa carta davanti a te. Vale +1 punto per ogni nobile Verde nella tua pila."
+  },
+  {
+    "key": "a7",
+    "name": "Errore del Clero",
+    "description": "Scegli un giocatore. Scegli un nobile dalla pila di questo giocatore. In seguito lui potrà scegliere qualunque altro nobile dalla tua."
+  },
+  {
+    "key": "a8",
+    "name": "Scambio d'Abito",
+    "description": "Scegli un nobile in coda e scartalo. Al suo posto inserisci il primo nobile dal mazzo"
+  },
+  {
+    "key": "a9",
+    "name": "Confusione in Coda",
+    "description": "Scegli un giocatore. Riordina casualmente la coda subito prima che questo giocatore peschi il proprio nobile"
+  },
+  {
+    "key": "a10",
+    "name": "Doppia Raccolta",
+    "description": "In questo turno raccogli un nobile aggiuntivo dalla testa della coda",
+    "qty": 2
+  },
+  {
+    "key": "a11",
+    "name": "Fuga!",
+    "description": "Scegli casualmente 2 nobili dalla coda e scartali. Riordina casualmente i rimanenti nobili"
+  },
+  {
+    "key": "a12",
+    "name": "Extra",
+    "description": "Aggiungi in fondo alla coda 3 nobili dal mazzo",
+    "qty": 2
+  },
+  {
+    "key": "a13",
+    "name": "Svenimento",
+    "description": "Sposta un nobile indietro fino a 3 posizioni."
+  },
+  {
+    "key": "a14",
+    "name": "Fuga in Inghilterra",
+    "description": "Rimuovi un nobile dalla coda."
+  },
+  {
+    "key": "a15",
+    "name": "Pausa Forzata",
+    "description": "Tutti gli altri giocatori dovranno scartare una carta azione a caso."
+  },
+  {
+    "key": "a16",
+    "name": "Supporto Straniero",
+    "description": "Gioca questa carta davanti a te. Draw an action card whenever you collect a Purple noble."
+  },
+  {
+    "key": "a17",
+    "name": "Marcia",
+    "description": "Sposta una Guardia di Palazzo in prima posizione."
+  },
+  {
+    "key": "a18",
+    "name": "Fontana di Sangue",
+    "description": "Gioca questa carta davanti a te. Vale +2 punti."
+  },
+  {
+    "key": "a19",
+    "name": "Amico della Regina",
+    "description": "Sposta un nobile indietro fino a 2 posizioni.",
+    "qty": 2
+  },
+  {
+    "key": "a20",
+    "name": "Nobile Ignobile",
+    "description": "Sposta un nobile in avanti di esattamente 4 posizioni.",
+    "qty": 2
+  },
+  {
+    "key": "a21",
+    "name": "Publico Indifferente",
+    "description": "Gioca questa carta davanti a te. Tutti i nobili Grigi nella tua pila valgono 1 punto, invece del loro normale valore."
+  },
+  {
+    "key": "a22",
+    "name": "Lotte Interne",
+    "description": "Scegli un giocatore. Questo giocatore dovrà scegliere 2 delle proprie carte azione e scartarle."
+  },
+  {
+    "key": "a23",
+    "name": "Scambio di Informazioni",
+    "description": "Scambia le carte azione con un altro giocatore."
+  },
+  {
+    "key": "a24",
+    "name": "Mancanza di Fede",
+    "description": "Se in coda c'è un nobile Blue, muovi quello più vicino alla prima posizione fino alla prima posizione."
+  },
+  {
+    "key": "a25",
+    "name": "Mancanza di Supporto",
+    "description": "Scegli un giocatore. Guarda le carte azione di questo giocatore, e scegline una da scartare."
+  },
+  {
+    "key": "a26",
+    "name": "Arrivo in Ritardo",
+    "description": "Guarda le prime 3 carte del mazzo dei nobili, e scegli quali di queste aggiungere in fondo alla coda."
+  },
+  {
+    "key": "a27",
+    "name": "Che Mangino la Torta",
+    "description": "Se Maria Antonietta si trova in coda, spostala in prima posizione."
+  },
+  {
+    "key": "a28",
+    "name": "L'Idiota",
+    "description": "Sposta un nobile in avanti fino a 2 posizioni.",
+    "qty": 2
+  },
+  {
+    "key": "a29",
+    "name": "Maestà",
+    "description": "Sposta un nobile Viola in avanti fino a 2 posizioni."
+  },
+  {
+    "key": "a30",
+    "name": "Confusione di Massa",
+    "description": "Mischia tutti i nobili in coda nel mazzo dei nobili. Ridisponi lo stesso numero di nobili in coda."
+  },
+  {
+    "key": "a31",
+    "name": "Potere Militare",
+    "description": "Sposta un nobile Rosso in avanti fino a 2 posizioni."
+  },
+  {
+    "key": "a32",
+    "name": "Supporto Militare",
+    "description": "Gioca questa carta davanti a te. Vale +1 punto per ogni nobile Rosso nella tua pila."
+  },
+  {
+    "key": "a33",
+    "name": "Scambi in Coda",
+    "description": "Riordina casualmente i primi 5 nobili della coda.",
+    "qty": 2
+  },
+  {
+    "key": "a34",
+    "name": "Mancato!",
+    "description": "Scegli un giocatore. Questo giocatore deve posizionare l'utimo nobile che ha raccolto in fondo alla coda."
+  },
+  {
+    "key": "a35",
+    "name": "Teste Mancanti",
+    "description": "Scegli un giocatore. Questo giocatore perde un nobile a caso dalla propria pila"
+  },
+  {
+    "key": "a36",
+    "name": "Guardie Interessate",
+    "description": "Ordina i primi 4 nobili come preferisci"
+  },
+  {
+    "key": "a37",
+    "name": "Influenza Politica",
+    "description": "Pesca 3 carte azione al termine del tuo turno. Non puoi raccogliere alcun nobile in questo turno.",
+    "qty": 2
+  },
+  {
+    "key": "a38",
+    "name": "Domanda Publica",
+    "description": "Sposta un nobile in prima posizione."
+  },
+  {
+    "key": "a39",
+    "name": "Spinto",
+    "description": "Sposta un nobile in avanti di esattamente 2 posizioni.",
+    "qty": 2
+  },
+  {
+    "key": "a40",
+    "name": "Ritardo per Pioggia",
+    "description": "Mischia tutte le carte azione di tutti i giocatori nel mazzo principale, e distribuisci 5 nuove carte ciascuno"
+  },
+  {
+    "key": "a41",
+    "name": "Pausa",
+    "description": "Scegli una carta azione dalla pila delle carte scartate, e riprendila in mano"
+  },
+  {
+    "key": "a42",
+    "name": "Lavoro Affrettato",
+    "description": "Scegli un giocatore. Questo non potrà giocare alcuna carta azione nel corso del suo prossimo turno."
+  },
+  {
+    "key": "a43",
+    "name": "Primula Rossa",
+    "description": "Il giorno termina al termine del tuo turno. I nobili rimanenti vengono scartati."
+  },
+  {
+    "key": "a44",
+    "name": "Inciampato",
+    "description": "Sposta un nobile in avanti di esattamente 1 posizione.",
+    "qty": 2
+  },
+  {
+    "key": "a45",
+    "name": "La Lunga Via",
+    "description": "Inverti l'ordine della coda."
+  },
+  {
+    "key": "a46",
+    "name": "Questo è Molto Meglio",
+    "description": "Sposta un nobile in avanti di esattamente 3 posizioni."
+  },
+  {
+    "key": "a47",
+    "name": "Folla Insensibile",
+    "description": "Gioca questa carta davanti ad un altro giocatore. Vale -2 punti."
+  },
+  {
+    "key": "a48",
+    "name": "Viaggio",
+    "description": "Sposta un nobile indietro di esattamente una posizione. Puoi giocare un'altra carta azione in questo turno.",
+    "qty": 2
+  },
+  {
+    "key": "a49",
+    "name": "Scherzo del Destino",
+    "description": "Scarta una carta azione attualmente in gioco di qualunque giocatore"
+  },
+  {
+    "key": "a50",
+    "name": "Mi hai chiamato?",
+    "description": "Sposta un nobile fino a 3 posizioni in avanti."
+  }
+]
